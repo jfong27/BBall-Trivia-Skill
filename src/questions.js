@@ -84,181 +84,181 @@ module.exports = {
             ]
         },
         {
-            "": [
-                "Montgomery Ward",
-                "Sears",
-                "Macys",
-                "Kmart"
+            "The Miami Heat big 3 was regarded as one of the greatest teams assembled. Lebron James upon his arrival assured winning how many rings to south beach?": [
+                "seven",
+                "three",
+                "five",
+                "two"
             ]
         },
         {
-            "Santa\'s reindeer named Donner was originally named what?": [
-                "Dunder",
-                "Donny",
-                "Dweedle",
-                "Dreamy"
+            "The New York Knicks are a dumpster fire. However, they have a young star in the making. How tall is their Latvian savior, Kristaps Porzingis?": [
+                "seven foot three",
+                "seven feet",
+                "seven foot six",
+                "six foot nine",
+                "six foot six"
             ]
         },
         {
-            "Who invented the story of Rudolph?": [
-                "Robert May",
-                "Johnny Marks",
-                "Santa",
-                "J.K. Rowling"
+            "We must always remember to trust the process. As of 2017, how many top three overall picks are on the Philadelphia seventy sixers?": [
+                "four",
+                "five",
+                "two",
+                "three"
             ]
         },
         {
-            "In what location will you not find reindeer?": [
-                "North Pole",
-                "Lapland",
-                "Korvatunturi mountain",
-                "Finland"
+            "Sam Hinkie died for the sixers sins. Whose front office was he apart of prior to philadelphia?": [
+                "Houston Rockets",
+                "Los Angeles Lakers",
+                "Milwaukee Bucks",
+                "Brooklyn Nets"
             ]
         },
         {
-            "What Makes Santa\'s Reindeer Fly?": [
-                "Magical Reindeer Dust",
-                "Fusion",
-                "Amanita muscaria",
-                "Elves"
+            "Michael Jordan is widely regarded as the goat. Aside from me of course. So how many actual goats reside on his chicago estate?": [
+                "none",
+                "five",
+                "fifty",
+                "over one hundred"
             ]
         },
         {
-            "Including Rudolph, how many reindeer hooves are there?": [
-                "36",
-                "24",
-                "16",
-                "8"
+            "The atlanta hawks aren't a very interesting team. I, tim duncan, happened to get my career high in rebounds against them. What was that number?": [
+                "27",
+                "23",
+                "19",
+                "31"
             ]
         },
         {
-            "Santa only has one female reindeer. Which one is it?": [
-                "Vixen",
-                "Clarice",
-                "Cupid",
-                "Cupid"
+            "The Orlando Magic has had some great big men. Shaquille O'Neal, Dwight Howard. How many players numbers do they have retired?": [
+                "none",
+                "just one",
+                "two players",
+                "five players"
             ]
         },
         {
-            "In the 1964 classic Rudolph The Red Nosed Reindeer, what was the snowman narrators name?": [
-                "Sam",
-                "Frosty",
-                "Burl",
-                "Snowy"
+            "The San Antonio Spurs in my opinion is the greatest sports franchise of all time. We got churros, championships, and chuck. Before pop was head coach for us, he was an assistant coach for which team? ": [
+                "Golden State Warriors",
+                "New York Knicks",
+                "Orlando Magic",
+                "Phoenix Suns"
             ]
         },
         {
-            "What was Rudolph\'s father\'s name?": [
-                "Donner",
-                "Dasher",
-                "Blixen",
-                "Comet"
+            "Who had the best bald spot in NBA history?": [
+                "Manu Ginobili",
+                "Kevin Durant",
+                "Carlos Boozer",
+                "Lebron James"
             ]
         },
         {
-            "In the 1964 movie, What was the name of the coach of the Reindeer Games?": [
-                "Comet",
-                "Blixen",
-                "Donner",
-                "Dasher"
+            "The Los Angeles Lakers have a lot of rings. Too many in my opinion. Who brought them the most?": [
+                "Three way tie between Kareem Magic and Kobe",
+                "Kareem Abdul-Jabbar",
+                "Kobe Bryant",
+                "Magic Johnson"
             ]
         },
         {
-            "In the 1964 movie, what is the name of the deer that Rudolph befriends at the reindeer games?": [
-                "Fireball",
-                "Clarice",
-                "Jumper",
-                "Vixen"
+            "Who is the all time leading scorer in NBA history?": [
+                "Kareem Abdul-Jabbar",
+                "Wilt Chamberlain",
+                "Kobe Bryant",
+                "Carmelo Anthony",
+                "Allen Iverson"
             ]
         },
         {
-            "In the 1964 movie, How did Donner, Rudolph\'s father, try to hide Rudolph\'s nose?": [
-                "Black mud",
-                "Bag",
-                "Pillow case",
-                "Sock"
+            "How many times did Magic Johnson lead the league in assists?": [
+                "four times",
+                "five times",
+                "three times",
+                "twice"
             ]
         },
         {
-            "In the 1964 movie, what does the Misfit Elf want to be instead of a Santa Elf?": [
-                "Dentist",
-                "Reindeer",
-                "Toy maker",
-                "Candlestick maker"
+            "What was Kareem Abdul-Jabbar's name before he changed it?": [
+                "Lew Alcindor",
+                "Thomas Earving",
+                "Muhammad Tally",
+                "Abraham Lincoln"
             ]
         },
         {
-            "In the 1964 movie,what was the Bumble\'s one weakness?": [
-                "Could not swim",
-                "Always hungry",
-                "Candy canes",
-                "Cross eyed"
+            "James Harden always hooks defenders arms drawing the foul. So annoying. How many free throw attempts did he have in the 2016 2017 season?": [
+                "881",
+                "910",
+                "1011",
+                "812"
             ]
         },
         {
-            "In the 1964 movie, what is Yukon Cornelius really in search of?": [
-                "Peppermint",
-                "Gold",
-                "India",
-                "Polar Bears"
+            "Remember when Tracy McGrady made all those points in 33 seconds? Wait, how many points was it?": [
+                "13",
+                "15",
+                "11",
+                "16"
             ]
         },
         {
-            "In the 1964 movie, why is the train on the Island of Misfit Toys?": [
-                "Square wheels",
-                "No Engine",
-                "Paint does not match",
-                "It does not toot"
+            "The Brooklyn Nets are terrible. Their first round pick is more valuable than gold. How many did they give up to acquire Paul Pierce, Kevin Garnett, and Jason Terry?": [
+                "Three picks",
+                "two picks",
+                "one pick",
+                "four picks"
             ]
         },
         {
-            "In the 1964 movie, what is the name of the Jack in the Box?": [
-                "Charlie",
-                "Sam",
-                "Billy",
-                "Jack"
+            "The Sacramento Kings traded star center Demarcus Cousins for a package of three players and two picks. Who was apart of this trade?": [
+                "Buddy Hield",
+                "Anthony Davis",
+                "Jrue Holiday",
+                "Jason Terry"
             ]
         },
         {
-            "In the 1964 movie, why did Santa Claus almost cancel Christmas?": [
-                "Storm",
-                "No snow",
-                "No toys",
-                "The Reindeer were sick"
+            "The Celtics have won a lot of championships thanks to Bill Russell. Wow Bill had a lot of rings. If you allowed one ring per finger, did he have enough fingers for all his rings?": [
+                "no",
+                "yes",
             ]
         },
         {
-            "In the 1964 movie, what animal noise did the elf make to distract the Bumble?": [
-                "Oink",
-                "Growl",
-                "Bark",
-                "Meow"
+            "Which of the following dynamic duos played for the Utah Jazz?": [
+                "John Stockton and Karl Malone",
+                "Russell Westbrook and Kevin Durant",
+                "Kobe Bryant and Shaquille O'Neal",
+                "Chris Paul and Blake Griffin"
             ]
         },
         {
-            "In the 1964 movie, what is the name of the prospector?": [
-                "Yukon Cornelius",
-                "Slider Sam",
-                "Bumble",
-                "Jack"
+            "In game 6 of the 2014 playoffs, damian lillard hit a thrilling game winner to send the blazers to the second round. Who was the series against? ": [
+                "Houston Rockets",
+                "Los Angeles Clippers",
+                "Dallas Mavericks",
+                "Memphis Grizzlies"
             ]
         },
         {
-            "How far do reindeer travel when they migrate?": [
-                "3000 miles",
-                "700 miles",
-                "500 miles",
-                "0 miles"
+            "With the first pick in the 2012 NBA draft, the New Orleans Pelicans select": [
+                "Anthony Davis",
+                "Jrue Holiday",
+                "Demarcus Cousins",
+                "Chris Paul",
+                "John Wall"
             ]
         },
         {
-            "How fast can a reindeer run?": [
-                "48 miles per hour",
-                "17 miles per hour",
-                "19 miles per hour",
-                "14 miles per hour",
-                "52 miles per hour",
-                "41 miles per hour"
+            "Who is the global ambassador for the Toronto Raptors?": [
+                "Drake",
+                "Chris Bosh",
+                "Keanu Reeves",
+                "Jim Carrey",
+                "deadmau5",
             ]
         }
     ],
@@ -512,3 +512,4 @@ module.exports = {
         }
     ]
 };
+
