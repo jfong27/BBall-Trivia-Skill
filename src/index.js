@@ -1,5 +1,5 @@
 "use strict";
-var APP_ID = amzn1.ask.skill.220d2a8b-07e2-4203-8c0f-79be16dfc121;  // TODO replace with your app ID (OPTIONAL).
+var APP_ID = undefined;  // TODO replace with your app ID (OPTIONAL).
 
 var ANSWER_COUNT = 4; // The number of possible answers per trivia question.
 var GAME_LENGTH = 5;  // The number of questions per trivia game.
@@ -8,8 +8,8 @@ var GAME_STATES = {
     START: "_STARTMODE", // Entry point, start the game.
     HELP: "_HELPMODE" // The user is asking for help.
 };
-var questions = require("./questions");
-
+var proto_questions = require("./questions");
+var questions = proto_questions.QUESTIONS_EN_US;
 /**
  * When editing your questions pay attention to your punctuation. Make sure you use question marks or periods.
  * Make sure the first answer is the correct one. Set at least ANSWER_COUNT answers, any extras will be shuffled in.
@@ -30,11 +30,11 @@ var languageString = {
             "TRIVIA_UNHANDLED": "Try saying a number between 1 and %s",
             "HELP_UNHANDLED": "Say yes to continue, or no to end the game. But I know you don't want to stop.",
             "START_UNHANDLED": "Say start to start a new game. That would be awesome. ",
-            "NEW_GAME_MESSAGE": "Welcome to %s with your host, Tim Duncan. Excuse my feminine voice. I'm sick.",
+            "NEW_GAME_MESSAGE": "Welcome to %s with your host, Tim Duncan. Excuse my oddly robotic and feminine voice. I'm sick. ",
             "WELCOME_MESSAGE": "I will ask you %s questions, try to get as many right as you can. " +
             "Just say the number of the answer. Let\'s begin. ",
-            "ANSWER_CORRECT_MESSAGE": "right on. ",
-            "ANSWER_WRONG_MESSAGE": "nope. ",
+            "ANSWER_CORRECT_MESSAGE": "right. I'm proud of you, son. ",
+            "ANSWER_WRONG_MESSAGE": "wrong. I'm disappointed, son. ",
             "CORRECT_ANSWER_MESSAGE": "The correct answer is %s: %s. ",
             "ANSWER_IS_MESSAGE": "That answer is ",
             "TELL_QUESTION_MESSAGE": "Question %s. %s ",
@@ -45,7 +45,7 @@ var languageString = {
     "en-US": {
         "translation": {
             "QUESTIONS" : questions["QUESTIONS_EN_US"],
-            "GAME_NAME" : "American Basketball Trivia" // Be sure to change this for your skill.
+            "GAME_NAME" : "NBA Basketball Trivia" // Be sure to change this for your skill.
         }
     },
     "en-GB": {
@@ -215,7 +215,7 @@ function handleUserGuess(userGaveUp) {
     var currentScore = parseInt(this.attributes.score);
     var currentQuestionIndex = parseInt(this.attributes.currentQuestionIndex);
     var correctAnswerText = this.attributes.correctAnswerText;
-    var translatedQuestions = this.t("QUESTIONS");
+    var translatedQuestions = questions;
 
     if (answerSlotValid && parseInt(this.event.request.intent.slots.Answer.value) == this.attributes["correctAnswerIndex"]) {
         currentScore++;
