@@ -1,5 +1,5 @@
 "use strict";
-var APP_ID = undefined;  // TODO replace with your app ID (OPTIONAL).
+var APP_ID = 'amzn1.ask.skill.220d2a8b-07e2-4203-8c0f-79be16dfc121'; 
 
 var ANSWER_COUNT = 4; // The number of possible answers per trivia question.
 var GAME_LENGTH = 5;  // The number of questions per trivia game.
@@ -19,10 +19,10 @@ var languageString = {
         "translation": {
             "QUESTIONS" : questions["QUESTIONS_EN_US"],
             "GAME_NAME" : "Basketball Trivia", // Be sure to change this for your skill.
-            "HELP_MESSAGE": "Hi, Tim Duncan here. I will ask you %s multiple choice questions. Respond with the number of the answer. " +
+            "HELP_MESSAGE": "Hi, Alexa here. I will ask you %s multiple choice questions. Respond with the number of the answer. " +
             "For example, say one, two, three, or four. To start a new game at any time, say, start game. ",
             "REPEAT_QUESTION_MESSAGE": "To repeat the last question, say, repeat.",
-            "ASK_MESSAGE_START": "Do you want to start playing with me, Tim Duncan?",
+            "ASK_MESSAGE_START": "Do you want to start playing with me?",
             "HELP_REPROMPT": "To give an answer to a question, respond with the number of the answer. ",
             "STOP_MESSAGE": "You wanna keep playing or nah?",
             "CANCEL_MESSAGE": "Ok, let\'s just ball another time.",
@@ -30,7 +30,7 @@ var languageString = {
             "TRIVIA_UNHANDLED": "Try saying a number between 1 and %s",
             "HELP_UNHANDLED": "Say yes to continue, or no to end the game. But I know you don't want to stop.",
             "START_UNHANDLED": "Say start to start a new game. That would be awesome. ",
-            "NEW_GAME_MESSAGE": "Welcome to %s with your host, Tim Duncan. Excuse my oddly robotic and feminine voice. I'm sick. ",
+            "NEW_GAME_MESSAGE": "Welcome to %s with your host, Alexa.",  
             "WELCOME_MESSAGE": "I will ask you %s questions, try to get as many right as you can. " +
             "Just say the number of the answer. Let\'s begin. ",
             "ANSWER_CORRECT_MESSAGE": "right. I'm proud of you, son. ",
@@ -57,7 +57,7 @@ var languageString = {
 };
 
 var Alexa = require("alexa-sdk");
-var APP_ID = undefined;  // TODO replace with your app ID (OPTIONAL).
+var app_id = 'amzn1.ask.skill.220d2a8b-07e2-4203-8c0f-79be16dfc121';  
 
 exports.handler = function(event, context, callback) {
     var alexa = Alexa.handler(event, context);
