@@ -1,9 +1,11 @@
 "use strict";
-var APP_ID = 'amzn1.ask.skill.220d2a8b-07e2-4203-8c0f-79be16dfc121'; 
+const Alexa = require('alexa-sdk');
 
-var ANSWER_COUNT = 4; // The number of possible answers per trivia question.
-var GAME_LENGTH = 5;  // The number of questions per trivia game.
-var GAME_STATES = {
+const APP_ID = 'amzn1.ask.skill.220d2a8b-07e2-4203-8c0f-79be16dfc121'; 
+
+const ANSWER_COUNT = 4; // The number of possible answers per trivia question.
+const GAME_LENGTH = 5;  // The number of questions per trivia game.
+const GAME_STATES = {
     TRIVIA: "_TRIVIAMODE", // Asking trivia questions.
     START: "_STARTMODE", // Entry point, start the game.
     HELP: "_HELPMODE" // The user is asking for help.
@@ -14,7 +16,7 @@ var questions = proto_questions.QUESTIONS_EN_US;
  * When editing your questions pay attention to your punctuation. Make sure you use question marks or periods.
  * Make sure the first answer is the correct one. Set at least ANSWER_COUNT answers, any extras will be shuffled in.
  */
-var languageString = {
+const languageString = {
     "en": {
         "translation": {
             "QUESTIONS" : questions["QUESTIONS_EN_US"],
@@ -30,7 +32,7 @@ var languageString = {
             "TRIVIA_UNHANDLED": "Try saying a number between 1 and %s",
             "HELP_UNHANDLED": "Say yes to continue, or no to end the game. But I know you don't want to stop.",
             "START_UNHANDLED": "Say start to start a new game. That would be awesome. ",
-            "NEW_GAME_MESSAGE": "Welcome to %s with your host, Alexa.",  
+            "NEW_GAME_MESSAGE": "Welcome to %s with your host, Alexa. ",  
             "WELCOME_MESSAGE": "I will ask you %s questions, try to get as many right as you can. " +
             "Just say the number of the answer. Let\'s begin. ",
             "ANSWER_CORRECT_MESSAGE": "right. I'm proud of you, son. ",
@@ -56,8 +58,7 @@ var languageString = {
     }
 };
 
-var Alexa = require("alexa-sdk");
-var app_id = 'amzn1.ask.skill.220d2a8b-07e2-4203-8c0f-79be16dfc121';  
+const app_id = 'amzn1.ask.skill.220d2a8b-07e2-4203-8c0f-79be16dfc121';  
 
 exports.handler = function(event, context, callback) {
     var alexa = Alexa.handler(event, context);
@@ -87,7 +88,7 @@ var newSessionHandlers = {
     }
 };
 
-var startStateHandlers = Alexa.CreateStateHandler(GAME_STATES.START, {
+const startStateHandlers = Alexa.CreateStateHandler(GAME_STATES.START, {
     "StartGame": function (newGame) {
         var speechOutput = newGame ? this.t("NEW_GAME_MESSAGE", this.t("GAME_NAME")) + this.t("WELCOME_MESSAGE", GAME_LENGTH.toString()) : "";
         // Select GAME_LENGTH questions for the game
@@ -158,7 +159,7 @@ var triviaStateHandlers = Alexa.CreateStateHandler(GAME_STATES.TRIVIA, {
     }
 });
 
-var helpStateHandlers = Alexa.CreateStateHandler(GAME_STATES.HELP, {
+const helpStateHandlers = Alexa.CreateStateHandler(GAME_STATES.HELP, {
     "helpTheUser": function (newGame) {
         var askMessage = newGame ? this.t("ASK_MESSAGE_START") : this.t("REPEAT_QUESTION_MESSAGE") + this.t("STOP_MESSAGE");
         var speechOutput = this.t("HELP_MESSAGE", GAME_LENGTH) + askMessage;
