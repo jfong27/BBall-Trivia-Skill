@@ -3,7 +3,7 @@
 module.exports = {
    "QUESTIONS_EN_GB" : [
    {
-      "Kawhi Leonard is a defensive stud. How many Defensive player of the year awards does he have?": [
+      "Kawhi Leonard is a defensive stud. How many Defensive player of the year awards does he have? ": [
          "two awards",
          "one award",
          "none",
@@ -11,7 +11,7 @@ module.exports = {
       ]
    },
    {
-      "Who invented the greatest sport of all time, basketball?": [
+      "Who invented the greatest sport of all time, basketball. ": [
          "James Naismith",
          "James Harden",
          "Arvydas Sabonis",
