@@ -4,7 +4,7 @@ const Alexa = require('alexa-sdk');
 const APP_ID = 'amzn1.ask.skill.220d2a8b-07e2-4203-8c0f-79be16dfc121'; 
 
 const ANSWER_COUNT = 4; // The number of possible answers per trivia question.
-const GAME_LENGTH = 5;  // The number of questions per trivia game.
+const GAME_LENGTH = 7;  // The number of questions per trivia game.
 const GAME_STATES = {
     TRIVIA: "_TRIVIAMODE", // Asking trivia questions.
     START: "_STARTMODE", // Entry point, start the game.
